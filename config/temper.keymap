@@ -127,9 +127,9 @@
         default_layer {
             label = "0";
             bindings = <
-&none  &kp Q           &kp W             &kp E          &kp R           &kp T          &kp Y        &kp U            &kp I            &kp O              &kp P                &none
-&none  &kp A           &hm LEFT_SHIFT S  &hm LCTRL D    &hm LEFT_ALT F  &kp G          &kp H        &hm RIGHT_ALT J  &hm RCTRL K      &hm RIGHT_SHIFT L  &mt COLON SEMICOLON  &none
-&none  &hm LEFT_GUI Z  &kp X             &kp C          &kp V           &kp B          &kp N        &kp M            &kp COMMA        &kp DOT            &mt QUESTION SLASH   &none
+  &kp Q           &kp W             &kp E          &kp R           &kp T          &kp Y        &kp U            &kp I            &kp O              &kp P                
+  &kp A           &hm LEFT_SHIFT S  &hm LCTRL D    &hm LEFT_ALT F  &kp G          &kp H        &hm RIGHT_ALT J  &hm RCTRL K      &hm RIGHT_SHIFT L  &mt COLON SEMICOLON  
+  &hm LEFT_GUI Z  &kp X             &kp C          &kp V           &kp B          &kp N        &kp M            &kp COMMA        &kp DOT            &mt QUESTION SLASH   
                                          &lt 3 LG(TAB)  &lt 4 TAB       &lt 1 SPACE    &lt 2 SPACE  &kp BACKSPACE    &mt LC(V) LC(C)
             >;
         };
@@ -137,9 +137,9 @@
         arrow_numbers {
             label = "1";
             bindings = <
-&none  &mt EXCLAMATION KP_NUMBER_1  &mt AT_SIGN KP_NUMBER_2        &mt HASH NUMBER_3  &mt DOLLAR NUMBER_4  &mt PERCENT KP_NUMBER_5    &mt CARET KP_NUMBER_6  &mt AMPERSAND KP_NUMBER_7  &mt ASTERISK KP_NUMBER_8  &mt LEFT_PARENTHESIS KP_NUMBER_9  &mt LEFT_PARENTHESIS KP_NUMBER_0  &none
-&none  &mt UNDERSCORE MINUS         &mt PLUS EQUAL                 &none              &none                &none                      &none                  &kp PAGE_UP                &kp UP_ARROW              &kp PAGE_DOWN                     &mt DOUBLE_QUOTES SQT             &none
-&none  &mt LEFT_BRACE LEFT_BRACKET  &mt RIGHT_BRACE RIGHT_BRACKET  &none              &none                &none                      &kp HOME               &kp LEFT_ARROW             &kp DOWN                  &kp RIGHT_ARROW                   &kp END                           &none
+  &mt EXCLAMATION KP_NUMBER_1  &mt AT_SIGN KP_NUMBER_2        &mt HASH NUMBER_3  &mt DOLLAR NUMBER_4  &mt PERCENT KP_NUMBER_5    &mt CARET KP_NUMBER_6  &mt AMPERSAND KP_NUMBER_7  &mt ASTERISK KP_NUMBER_8  &mt LEFT_PARENTHESIS KP_NUMBER_9  &mt LEFT_PARENTHESIS KP_NUMBER_0  
+  &mt UNDERSCORE MINUS         &mt PLUS EQUAL                 &none              &none                &none                      &none                  &kp PAGE_UP                &kp UP_ARROW              &kp PAGE_DOWN                     &mt DOUBLE_QUOTES SQT             
+  &mt LEFT_BRACE LEFT_BRACKET  &mt RIGHT_BRACE RIGHT_BRACKET  &none              &none                &none                      &kp HOME               &kp LEFT_ARROW             &kp DOWN                  &kp RIGHT_ARROW                   &kp END                           
                                                                    &none              &none                &none                      &none                  &none                      &none
             >;
         };
@@ -147,9 +147,9 @@
         arrow_numbers2 {
             label = "2";
             bindings = <
-&none  &mt EXCLAMATION KP_NUMBER_1  &mt AT_SIGN KP_NUMBER_2        &mt HASH NUMBER_3  &mt DOLLAR NUMBER_4  &mt PERCENT KP_NUMBER_5    &mt CARET KP_NUMBER_6  &mt AMPERSAND KP_NUMBER_7  &mt ASTERISK KP_NUMBER_8  &mt LEFT_PARENTHESIS KP_NUMBER_9  &mt LEFT_PARENTHESIS KP_NUMBER_0  &none
-&none  &mt UNDERSCORE MINUS         &mt PLUS EQUAL                 &none              &none                &none                      &none                  &kp PAGE_UP                &kp UP_ARROW              &kp PAGE_DOWN                     &mt DOUBLE_QUOTES SQT             &none
-&none  &mt LEFT_BRACE LEFT_BRACKET  &mt RIGHT_BRACE RIGHT_BRACKET  &none              &none                &none                      &kp HOME               &kp LEFT_ARROW             &kp DOWN                  &kp RIGHT_ARROW                   &kp END                           &none
+  &mt EXCLAMATION KP_NUMBER_1  &mt AT_SIGN KP_NUMBER_2        &mt HASH NUMBER_3  &mt DOLLAR NUMBER_4  &mt PERCENT KP_NUMBER_5    &mt CARET KP_NUMBER_6  &mt AMPERSAND KP_NUMBER_7  &mt ASTERISK KP_NUMBER_8  &mt LEFT_PARENTHESIS KP_NUMBER_9  &mt LEFT_PARENTHESIS KP_NUMBER_0  
+  &mt UNDERSCORE MINUS         &mt PLUS EQUAL                 &none              &none                &none                      &none                  &kp PAGE_UP                &kp UP_ARROW              &kp PAGE_DOWN                     &mt DOUBLE_QUOTES SQT             
+  &mt LEFT_BRACE LEFT_BRACKET  &mt RIGHT_BRACE RIGHT_BRACKET  &none              &none                &none                      &kp HOME               &kp LEFT_ARROW             &kp DOWN                  &kp RIGHT_ARROW                   &kp END                           
                                                                    &none              &none                &none                      &none                  &none                      &none
             >;
         };
@@ -157,9 +157,9 @@
         number_layer {
             label = "3";
             bindings = <
-&none  &none  &none  &none  &none  &none    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE    &kp KP_MULTIPLY  &none
-&none  &none  &none  &none  &none  &none    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SUBTRACT  &kp PLUS         &none
-&none  &none  &none  &none  &none  &none    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_COMMA     &kp KP_EQUAL     &none
+  &none  &none  &none  &none  &none    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE    &kp KP_MULTIPLY  
+  &none  &none  &none  &none  &none    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SUBTRACT  &kp PLUS         
+  &none  &none  &none  &none  &none    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_COMMA     &kp KP_EQUAL     
                      &none  &none  &none    &kp KP_NUMBER_0  &kp PERIOD       &kp KP_ENTER
             >;
         };
@@ -167,9 +167,9 @@
         mouse_layer {
             label = "4";
             bindings = <
-&none  &none  &none  &none  &none  &none    &none                &kp K_BACK      &mkp MCLK       &kp K_FORWARD    &none                  &none
-&none  &none  &none  &none  &none  &none    &kp K_SCROLL_UP      &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp K_SCROLL_DOWN      &none
-&none  &none  &none  &none  &none  &none    &kp LS(K_SCROLL_UP)  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp RS(K_SCROLL_DOWN)  &none
+  &none  &none  &none  &none  &none    &none                &kp K_BACK      &mkp MCLK       &kp K_FORWARD    &none                  
+  &none  &none  &none  &none  &none    &kp K_SCROLL_UP      &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp K_SCROLL_DOWN      
+  &none  &none  &none  &none  &none    &kp LS(K_SCROLL_UP)  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp RS(K_SCROLL_DOWN)  
                      &none  &none  &none    &kp C_VOL_DN         &kp C_VOL_UP    &kp K_MUTE
             >;
         };
@@ -177,9 +177,9 @@
         f_layer {
             label = "5";
             bindings = <
-&none   &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp F11  &kp F12  &trans  &trans  &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans   &trans   &trans  &trans  &trans   &trans
+   &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  
+  &trans  &trans  &trans  &trans  &trans    &kp F11  &kp F12  &trans  &trans  &trans   
+  &trans  &trans  &trans  &trans  &trans    &trans   &trans   &trans  &trans  &trans   
                         &trans  &trans  &trans    &trans   &trans   &trans
             >;
         };
@@ -187,9 +187,9 @@
         bt_layer {
             label = "6";
             bindings = <
-&none  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none  &none  &none  &none  &none        &none
-&none  &none           &none         &none         &none         &none           &none  &none  &none  &none  &none        &none
-&none  &bt BT_CLR_ALL  &bt BT_CLR    &none         &bt BT_PRV    &bt BT_NXT      &none  &none  &none  &none  &bootloader  &none
+  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none  &none  &none  &none  &none        
+  &none           &none         &none         &none         &none           &none  &none  &none  &none  &none        
+  &bt BT_CLR_ALL  &bt BT_CLR    &none         &bt BT_PRV    &bt BT_NXT      &none  &none  &none  &none  &bootloader  
                                      &none         &none         &none           &none  &none  &none
             >;
         };
